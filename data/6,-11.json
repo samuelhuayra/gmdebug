@@ -1,0 +1,1633 @@
+{
+  "coor": "6,-11",
+  "passed": true,
+  "data": [
+    {
+      "status": 0,
+      "data": [
+        {
+          "_id": "610736c1ed983ac15bca3e20",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1001228500,
+          "plantUnitId": 10012285,
+          "plantType": 1,
+          "plantElement": "parasite",
+          "createdAt": "2021-08-02T00:05:21.449Z",
+          "updatedAt": "2021-08-13T16:48:29.874Z",
+          "__v": 0,
+          "harvestTime": "2021-08-18T01:36:31.215Z",
+          "rate": { "le": 1035, "hours": 120 },
+          "startTime": "2021-08-13T01:35:48.411Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1035, "hours": 120 },
+            "stats": {
+              "type": "parasite",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 225,
+              "damageMagic": 0,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/12_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 10,
+              "description": "All plants/trees (except parasite) productivity is increased by 20%."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "610736c1ed983ac15bca3e20",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:10.013Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 1,
+              "farmId": "610736c1ed983ac15bca3e20",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 131,
+              "farmId": "610736c1ed983ac15bca3e20",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T01:35:48.411Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 179
+        },
+        {
+          "_id": "610736cb818090cf78e249ac",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1000527100,
+          "plantUnitId": 10005271,
+          "plantType": 1,
+          "plantElement": "water",
+          "createdAt": "2021-08-02T00:05:31.609Z",
+          "updatedAt": "2021-08-13T16:42:21.382Z",
+          "__v": 0,
+          "harvestTime": "2021-08-15T18:48:07.824Z",
+          "rate": { "le": 1111, "hours": 108 },
+          "startTime": "2021-08-11T03:39:31.215Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1111, "hours": 108 },
+            "stats": {
+              "type": "water",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 522,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/5_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 8,
+              "description": "All plants on this land are fully-watered 2/9. Water +5% productivity."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "610736cb818090cf78e249ac",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 102,
+              "farmId": "610736cb818090cf78e249ac",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T03:39:31.215Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "610736cb818090cf78e249ac",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:16.205Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 171
+        },
+        {
+          "_id": "610736dbed983a05a3ca3e25",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1001513000,
+          "plantUnitId": 10015130,
+          "plantType": 1,
+          "plantElement": "electro",
+          "createdAt": "2021-08-02T00:05:47.861Z",
+          "updatedAt": "2021-08-13T18:34:14.495Z",
+          "__v": 0,
+          "harvestTime": "2021-08-15T02:31:39.499Z",
+          "rate": { "le": 530, "hours": 48 },
+          "startTime": "2021-08-13T02:31:11.112Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 530, "hours": 48 },
+            "stats": {
+              "type": "electro",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 430,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/15_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 8,
+              "description": "This land is immune to crows."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "610736dbed983a05a3ca3e25",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:20.710Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 1,
+              "farmId": "610736dbed983a05a3ca3e25",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 103,
+              "farmId": "610736dbed983a05a3ca3e25",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T02:31:11.112Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 136
+        },
+        {
+          "_id": "610736e4653333628e763581",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1001313400,
+          "plantUnitId": 10013134,
+          "plantType": 1,
+          "plantElement": "parasite",
+          "createdAt": "2021-08-02T00:05:56.365Z",
+          "updatedAt": "2021-08-13T18:03:28.731Z",
+          "__v": 0,
+          "harvestTime": "2021-08-17T22:56:58.766Z",
+          "rate": { "le": 934, "hours": 120 },
+          "startTime": "2021-08-12T22:56:58.766Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 934, "hours": 120 },
+            "stats": {
+              "type": "parasite",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 134,
+              "damageMagic": 0,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/13_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 10,
+              "description": "All plants/trees (except parasite) productivity is increased by 20%."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 100,
+              "farmId": "610736e4653333628e763581",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-12T22:56:58.766Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "610736e4653333628e763581",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 1,
+              "farmId": "610736e4653333628e763581",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:25.017Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 105
+        },
+        {
+          "_id": "610736eb13754b855bd53e26",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1003814700,
+          "plantUnitId": 10038147,
+          "plantType": 1,
+          "plantElement": "water",
+          "createdAt": "2021-08-02T00:06:03.942Z",
+          "updatedAt": "2021-08-13T13:17:17.334Z",
+          "__v": 0,
+          "harvestTime": "2021-08-18T05:10:57.698Z",
+          "rate": { "le": 1097, "hours": 120 },
+          "startTime": "2021-08-13T05:08:44.694Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1097, "hours": 120 },
+            "stats": {
+              "type": "water",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 147,
+              "damageMagic": 0,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/38_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 8,
+              "description": "All plants on this land are fully-watered 2/9. Water +5% productivity."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 105,
+              "farmId": "610736eb13754b855bd53e26",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T05:08:44.694Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "610736eb13754b855bd53e26",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:28.389Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 1,
+              "farmId": "610736eb13754b855bd53e26",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 38
+        },
+        {
+          "_id": "610736f38180908b31e249c5",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1002311400,
+          "plantUnitId": 10023114,
+          "plantType": 1,
+          "plantElement": "parasite",
+          "createdAt": "2021-08-02T00:06:11.828Z",
+          "updatedAt": "2021-08-13T17:49:11.534Z",
+          "__v": 0,
+          "harvestTime": "2021-08-16T17:31:18.463Z",
+          "rate": { "le": 1314, "hours": 168 },
+          "startTime": "2021-08-09T14:20:53.461Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1314, "hours": 168 },
+            "stats": {
+              "type": "parasite",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 114,
+              "damageMagic": 0,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/23_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 10,
+              "description": "All plants/trees (except parasite) productivity is increased by 20%."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "610736f38180908b31e249c5",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 1,
+              "farmId": "610736f38180908b31e249c5",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:37.382Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 101,
+              "farmId": "610736f38180908b31e249c5",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T14:20:53.461Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 179
+        },
+        {
+          "_id": "610736fc818090186ee249c6",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1003628200,
+          "plantUnitId": 10036282,
+          "plantType": 1,
+          "plantElement": "water",
+          "createdAt": "2021-08-02T00:06:20.748Z",
+          "updatedAt": "2021-08-13T17:54:30.678Z",
+          "__v": 0,
+          "harvestTime": "2021-08-16T09:01:40.127Z",
+          "rate": { "le": 1122, "hours": 108 },
+          "startTime": "2021-08-11T17:54:20.277Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1122, "hours": 108 },
+            "stats": {
+              "type": "water",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 444,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/36_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 8,
+              "description": "All plants on this land are fully-watered 2/9. Water +5% productivity."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 113,
+              "farmId": "610736fc818090186ee249c6",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T17:54:20.277Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "610736fc818090186ee249c6",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 1,
+              "farmId": "610736fc818090186ee249c6",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:41.653Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 185
+        },
+        {
+          "_id": "61073704ed983a1bfbca3e49",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1001112000,
+          "plantUnitId": 10011120,
+          "plantType": 1,
+          "plantElement": "parasite",
+          "createdAt": "2021-08-02T00:06:28.709Z",
+          "updatedAt": "2021-08-13T18:48:42.241Z",
+          "__v": 0,
+          "harvestTime": "2021-08-17T04:34:50.736Z",
+          "rate": { "le": 920, "hours": 120 },
+          "startTime": "2021-08-12T04:34:50.736Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 920, "hours": 120 },
+            "stats": {
+              "type": "parasite",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 220,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/11_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 10,
+              "description": "All plants/trees (except parasite) productivity is increased by 20%."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "61073704ed983a1bfbca3e49",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:45.991Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 102,
+              "farmId": "61073704ed983a1bfbca3e49",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T04:34:50.736Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "61073704ed983a1bfbca3e49",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 16
+        },
+        {
+          "_id": "6107370eed983a089dca3e53",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1002713900,
+          "plantUnitId": 10027139,
+          "plantType": 1,
+          "plantElement": "metal",
+          "createdAt": "2021-08-02T00:06:38.747Z",
+          "updatedAt": "2021-08-13T15:41:45.960Z",
+          "__v": 0,
+          "harvestTime": "2021-08-22T21:42:49.930Z",
+          "rate": { "le": 5890, "hours": 480 },
+          "startTime": "2021-08-02T00:22:12.501Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 5890, "hours": 480 },
+            "stats": {
+              "type": "metal",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 339,
+              "damageMagic": 0,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/27_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 10,
+              "description": "This land is immune to weather. Metal plants/trees productivity + 20%."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 102,
+              "farmId": "6107370eed983a089dca3e53",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T00:22:12.501Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "6107370eed983a089dca3e53",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 1,
+              "farmId": "6107370eed983a089dca3e53",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:50.079Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 162
+        },
+        {
+          "_id": "6107371a13754b6a6bd53e44",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1000226700,
+          "plantUnitId": 10002267,
+          "plantType": 1,
+          "plantElement": "ice",
+          "createdAt": "2021-08-02T00:06:50.087Z",
+          "updatedAt": "2021-08-13T17:15:34.870Z",
+          "__v": 0,
+          "harvestTime": "2021-08-14T17:01:23.934Z",
+          "rate": { "le": 617, "hours": 60 },
+          "startTime": "2021-08-12T04:59:52.471Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 617, "hours": 60 },
+            "stats": {
+              "type": "ice",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 585,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/2_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 5,
+              "description": "This land is immune to: Heat wave, Volcano. Ice productivity + 7%"
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 102,
+              "farmId": "6107371a13754b6a6bd53e44",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T04:59:52.471Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "6107371a13754b6a6bd53e44",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:27:54.571Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 1,
+              "farmId": "6107371a13754b6a6bd53e44",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 115
+        }
+      ],
+      "total": 17
+    },
+    {
+      "status": 0,
+      "data": [
+        {
+          "_id": "6107372365333306017635b7",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1003414000,
+          "plantUnitId": 10034140,
+          "plantType": 1,
+          "plantElement": "electro",
+          "createdAt": "2021-08-02T00:06:59.559Z",
+          "updatedAt": "2021-08-13T17:10:30.711Z",
+          "__v": 0,
+          "harvestTime": "2021-08-15T11:06:22.459Z",
+          "rate": { "le": 690, "hours": 60 },
+          "startTime": "2021-08-12T23:06:22.459Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 690, "hours": 60 },
+            "stats": {
+              "type": "electro",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 0,
+              "damagePure": 0,
+              "damageHpLoss": 0.24,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/34_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 8,
+              "description": "This land is immune to crows."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "6107372365333306017635b7",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 1,
+              "farmId": "6107372365333306017635b7",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:28:04.946Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 102,
+              "farmId": "6107372365333306017635b7",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-12T23:06:22.459Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 179
+        },
+        {
+          "_id": "6107372eed983a0e22ca3e65",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1002928400,
+          "plantUnitId": 10029284,
+          "plantType": 1,
+          "plantElement": "ice",
+          "createdAt": "2021-08-02T00:07:10.815Z",
+          "updatedAt": "2021-08-13T15:41:53.434Z",
+          "__v": 0,
+          "harvestTime": "2021-08-14T14:47:32.597Z",
+          "rate": { "le": 934, "hours": 96 },
+          "startTime": "2021-08-10T11:38:54.207Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 934, "hours": 96 },
+            "stats": {
+              "type": "ice",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 268,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/29_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 5,
+              "description": "This land is immune to: Heat wave, Volcano. Ice productivity + 7%"
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "6107372eed983a0e22ca3e65",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 1,
+              "farmId": "6107372eed983a0e22ca3e65",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:28:08.830Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 101,
+              "farmId": "6107372eed983a0e22ca3e65",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T11:38:54.207Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 62
+        },
+        {
+          "_id": "6107373aed983a4d97ca3e72",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1003015800,
+          "plantUnitId": 10030158,
+          "plantType": 1,
+          "plantElement": "fire",
+          "createdAt": "2021-08-02T00:07:22.861Z",
+          "updatedAt": "2021-08-13T17:43:27.672Z",
+          "__v": 0,
+          "harvestTime": "2021-08-15T02:47:18.249Z",
+          "rate": { "le": 708, "hours": 72 },
+          "startTime": "2021-08-11T23:40:08.906Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 708, "hours": 72 },
+            "stats": {
+              "type": "fire",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 1058,
+              "damageMagic": 0,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/30_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 5,
+              "description": "This land is immune to: Tsunami, Hurricanne, Snowy, Rain, Cold Wave, Winter Storm."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "6107373aed983a4d97ca3e72",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 1,
+              "farmId": "6107373aed983a4d97ca3e72",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:28:12.532Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 102,
+              "farmId": "6107373aed983a4d97ca3e72",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-12T23:40:08.906Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 111
+        },
+        {
+          "_id": "610737466533331a2a7635da",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 1001610000,
+          "plantUnitId": 10016100,
+          "plantType": 1,
+          "plantElement": "wind",
+          "createdAt": "2021-08-02T00:07:34.796Z",
+          "updatedAt": "2021-08-13T15:41:54.876Z",
+          "__v": 0,
+          "harvestTime": "2021-08-14T23:31:00.799Z",
+          "rate": { "le": 900, "hours": 96 },
+          "startTime": "2021-08-10T20:21:41.736Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 900, "hours": 96 },
+            "stats": {
+              "type": "wind",
+              "hp": 0,
+              "defPhysics": 0,
+              "defMagic": 0,
+              "damagePhysics": 0,
+              "damageMagic": 300,
+              "damagePure": 0,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 1,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/16_1.png",
+            "rarity": 0,
+            "synergy": {
+              "requirement": 10,
+              "description": "Reduce Harvest time by 10% for all plants/trees on this land."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "610737466533331a2a7635da",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 103,
+              "farmId": "610737466533331a2a7635da",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-12T20:21:41.736Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "610737466533331a2a7635da",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:28:16.442Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 179
+        },
+        {
+          "_id": "6107375413754bb5acd53e79",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 2009027800,
+          "plantUnitId": 20090278,
+          "plantType": 2,
+          "plantElement": "fire",
+          "createdAt": "2021-08-02T00:07:48.723Z",
+          "updatedAt": "2021-08-13T19:02:07.360Z",
+          "__v": 0,
+          "harvestTime": "2021-08-15T02:55:28.233Z",
+          "rate": { "le": 1190, "hours": 48 },
+          "startTime": "2021-08-13T02:55:14.271Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1190, "hours": 48 },
+            "stats": {
+              "type": "fire",
+              "hp": 23600,
+              "defPhysics": 200,
+              "defMagic": 200,
+              "damagePhysics": 200,
+              "damageMagic": 200,
+              "damagePure": 200,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 2,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/mtree/90_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 5,
+              "description": "This land is immune to: Tsunami, Hurricanne, Snowy, Rain, Cold Wave, Winter Storm."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "6107375413754bb5acd53e79",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:28:20.207Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 102,
+              "farmId": "6107375413754bb5acd53e79",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-12T23:47:09.313Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "6107375413754bb5acd53e79",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 0
+        },
+        {
+          "_id": "61073785818090b3f2e24a1a",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 2009126300,
+          "plantUnitId": 20091263,
+          "plantType": 2,
+          "plantElement": "light",
+          "createdAt": "2021-08-02T00:08:37.175Z",
+          "updatedAt": "2021-08-13T18:49:59.340Z",
+          "__v": 0,
+          "harvestTime": "2021-08-22T19:46:22.575Z",
+          "rate": { "le": 1765, "hours": 240 },
+          "startTime": "2021-08-12T19:45:45.518Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1765, "hours": 240 },
+            "stats": {
+              "type": "light",
+              "hp": 21600,
+              "defPhysics": 300,
+              "defMagic": 300,
+              "damagePhysics": 125,
+              "damageMagic": 125,
+              "damagePure": 125,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 2,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/mtree/91_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 15,
+              "description": " +2% seed dropping chance."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "61073785818090b3f2e24a1a",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:28:24.508Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            },
+            {
+              "count": 105,
+              "farmId": "61073785818090b3f2e24a1a",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-12T19:45:45.518Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "61073785818090b3f2e24a1a",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 164
+        },
+        {
+          "_id": "61073ae18e5695427b1cbe80",
+          "stage": "farming",
+          "ownerId": "0x0f21704837074e1ba25827ed9300495ed646c78e",
+          "landId": 10902,
+          "plantId": 2009027300,
+          "plantUnitId": 20090273,
+          "plantType": 2,
+          "plantElement": "fire",
+          "createdAt": "2021-08-02T00:22:57.229Z",
+          "updatedAt": "2021-08-13T16:18:01.477Z",
+          "__v": 0,
+          "harvestTime": "2021-08-14T04:02:47.570Z",
+          "rate": { "le": 1165, "hours": 48 },
+          "startTime": "2021-08-12T04:00:05.446Z",
+          "land": {
+            "elements": {
+              "fire": 1,
+              "water": 0,
+              "ice": 0,
+              "wind": 0,
+              "electro": 0,
+              "parasite": 0,
+              "light": 0,
+              "dark": 0,
+              "metal": 0
+            },
+            "capacity": { "plant": 20, "motherTree": 3 },
+            "landId": 10902,
+            "x": 6,
+            "y": -11,
+            "totalOfElements": 1,
+            "rarity": 0
+          },
+          "plant": {
+            "farmConfig": { "le": 1165, "hours": 48 },
+            "stats": {
+              "type": "fire",
+              "hp": 22600,
+              "defPhysics": 200,
+              "defMagic": 200,
+              "damagePhysics": 200,
+              "damageMagic": 200,
+              "damagePure": 200,
+              "damageHpLoss": 0,
+              "damageHpRemove": 0
+            },
+            "type": 2,
+            "iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/mtree/90_2.png",
+            "rarity": 1,
+            "synergy": {
+              "requirement": 5,
+              "description": "This land is immune to: Tsunami, Hurricanne, Snowy, Rain, Cold Wave, Winter Storm."
+            }
+          },
+          "hasSynergy": false,
+          "activeTools": [
+            {
+              "count": 1,
+              "farmId": "61073ae18e5695427b1cbe80",
+              "id": 5,
+              "type": "GREENHOUSE",
+              "startTime": "2021-08-14T00:00:00.000Z",
+              "name": "Greenhouse",
+              "description": "No need to worry about tomorrow's weather."
+            },
+            {
+              "count": 107,
+              "farmId": "61073ae18e5695427b1cbe80",
+              "id": 3,
+              "type": "WATER",
+              "startTime": "2021-08-13T04:00:05.446Z",
+              "name": "Water",
+              "description": "Don't forget to water your plants everyday."
+            },
+            {
+              "count": 1,
+              "farmId": "61073ae18e5695427b1cbe80",
+              "id": 2,
+              "type": "POT",
+              "startTime": "2021-08-12T03:28:28.654Z",
+              "name": "Big Pot",
+              "description": "You need big pot to start farming. +1% chance to drop seeds."
+            }
+          ],
+          "waterStatus": { "needWater": false },
+          "hasSeed": false,
+          "hasCrow": false,
+          "pausedTime": null,
+          "inGreenhouse": false,
+          "cancelAt": null,
+          "totalHarvest": 0,
+          "totalExtraHarvest": 0,
+          "count": 35
+        }
+      ],
+      "total": 17
+    }
+  ]
+}
